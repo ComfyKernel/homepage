@@ -8,4 +8,6 @@ tramp
 .\#*
 *.o
 *.a
+*.buildconfig
+.buildconfig
 cgetester

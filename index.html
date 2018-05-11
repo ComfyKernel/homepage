@@ -8,10 +8,17 @@
   <body>
     <div id="bodygrid">
       <div id="headbar">
-	<input type="image" src="logo.png" id="headlogo">
+        <input type="image" src="grabber-middle.png" id="headbutton" class="headbutton-closed" onclick="toggleMenu();"></input>
+        <input type="image" src="logo.png" id="headlogo" class="headlogo-closed"></input>
       </div>
       <iframe id="bodyzone" src="home.html">
       </iframe>
+      <div id="bodymenu" class="bodymenu-closed">
+        <input type="button" class="bodymenu-button" value="HOME" style="margin-top : 10pt"></input>
+      </div>
     </div>
+    <script src="index.js">
+
+    </script>
   </body>
 </html>
