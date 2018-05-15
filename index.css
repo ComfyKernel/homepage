@@ -93,8 +93,8 @@
     border-width     : 0;
     color            : #DDDDDD;
 
-    border-bottom-width : 3pt;
-    border-bottom-color : #222222;
+    border-bottom-width : 0pt;
+    border-bottom-color : #333333;
     border-bottom-style : solid;
 
     font-family      : arial, helvetica, sans-serif;
@@ -108,7 +108,8 @@
 }
 
 .bodymenu-button:hover {
-    background-color : #EFEFFF22;
+    background-color    : #EFEFFF22;
+    border-bottom-width : 3pt
 }
 
 .bodymenu-button:active {
