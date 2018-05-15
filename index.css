@@ -91,9 +91,9 @@
 .bodymenu-button {
     background-color : #00000000;
     border-width     : 0;
-    color            : #FFFFFF;
+    color            : #DDDDDD;
 
-    border-bottom-width : 1pt;
+    border-bottom-width : 3pt;
     border-bottom-color : #222222;
     border-bottom-style : solid;
 
@@ -102,7 +102,7 @@
     font-size        : 14pt;
 
     width  : 100%;
-    height : 32pt;
+    height : 24pt;
 
     transition-duration : 0.125s;
 }
