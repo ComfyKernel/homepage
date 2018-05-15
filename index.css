@@ -94,7 +94,7 @@
     color            : #DDDDDD;
 
     border-bottom-width : 0pt;
-    border-bottom-color : #333333;
+    border-bottom-color : #AAAAAA;
     border-bottom-style : solid;
 
     font-family      : arial, helvetica, sans-serif;
@@ -108,6 +108,7 @@
 }
 
 .bodymenu-button:hover {
+    color               : #FFFFFF;
     background-color    : #EFEFFF22;
     border-bottom-width : 3pt
 }
