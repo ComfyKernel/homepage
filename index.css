@@ -43,7 +43,7 @@
 
 #headbutton {
     height : calc(100% - 8pt);
-    width  : 240pt;
+    width  : 100pt;
 
     margin-top  : 4pt;
     margin-left : 4pt;
@@ -82,9 +82,12 @@
     width  : 250pt;
     height : 100%;
     transition-duration : 0.5s;
+
+    box-shadow  : -3pt 0 5pt 5pt #00000066;
 }
 
 .bodymenu-closed {
+    box-shadow  : 0 0 0 0 #00000000 !important;
     left : -250pt !important;
 }
 
@@ -102,18 +105,18 @@
     font-size        : 14pt;
 
     width  : 100%;
-    height : 32pt;
+    height : 40pt;
     
-    margin-top    : 2pt;
-    margin-bottom : 1pt;
+    margin-top    : 0pt;
+    margin-bottom : 0pt;
 
     transition-duration : 0.125s;
 }
 
 .bodymenu-button:hover {
     color               : #FFFFFF;
-    background-color    : #EFEFFF22;
-    border-bottom-width : 3pt
+    background-color    : #EFEFFF00;
+    border-bottom-width : 4pt
 }
 
 .bodymenu-button:active {
